@@ -12,18 +12,36 @@
         Dim s3 As String = s1 + " " + s2
         Console.WriteLine(s3)
         Dim anneeNow As Integer = DateTime.Now.Year
-        Console.Write("Saisir votre année de naissance : ")
-        Dim anneeNaissance As Integer = Console.ReadLine()
-        Dim age As Integer = anneeNow - anneeNaissance
-        Console.WriteLine("Vous avez " & age & " ans")
-
-
-        Dim i As Integer = 0
-        Dim j As Integer = 32
-        While i < 10
-            Console.WriteLine(i)
-            i = i + 1
+        Dim anneeNaissance As Integer = -1
+        While anneeNaissance <> 0
+            Console.Write("Saisir votre année de naissance : ")
+            anneeNaissance = Console.ReadLine()
+            Dim age As Integer = anneeNow - anneeNaissance
+            Console.WriteLine("Vous avez " & age & " ans")
+            If age Mod 2 = 0 Then
+                Console.WriteLine("Age pair")
+            Else
+                Console.WriteLine("Age impair")
+            End If
+            If age < 1 Then
+                Console.WriteLine("Nourisson")
+            ElseIf age < 12 Then
+                Console.WriteLine("Enfant")
+            ElseIf age < 18 Then
+                Console.WriteLine("Adolescent")
+            ElseIf age < 60 Then
+                Console.WriteLine("Adulte")
+            ElseIf age < 100 Then
+                Console.WriteLine("Retraité")
+            Else
+                Console.WriteLine("Centenaire")
+            End If
         End While
+
+        For i = 100 To 0 Step -2
+            'Exit for
+        Next
+
         Console.ReadKey()
 
 
