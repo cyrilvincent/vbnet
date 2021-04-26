@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8C9B32C7-3634-447E-815F-2DD712C593EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>FormationVBNET.Module2</StartupObject>
+    <StartupObject>FormationVBNET.Module1</StartupObject>
     <RootNamespace>FormationVBNET</RootNamespace>
     <AssemblyName>FormationVBNET</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="Module1.vb" />
     <Compile Include="Module2.vb" />
+    <Compile Include="Module3.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
