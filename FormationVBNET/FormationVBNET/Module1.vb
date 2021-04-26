@@ -16,13 +16,26 @@
         Dim anneeNaissance As Integer = Console.ReadLine()
         Dim age As Integer = anneeNow - anneeNaissance
         Console.WriteLine("Vous avez " & age & " ans")
+
+
+        Dim i As Integer = 0
+        Dim j As Integer = 32
+        While i < 10
+            Console.WriteLine(i)
+            i = i + 1
+        End While
         Console.ReadKey()
+
 
         'TP1
         'Saisir une année
         'DateTime.Now().Year va donner l'année actuelle
         'Afficher l'age de la personne
 
+        'TP2
+        'Afficher si nourisson (<1 an) enfant(<12 ans) adolescent (18) adulte (60) retraite (100) centenaire > 100
+        'Afficher si ton age est pair (3 mod 2 => 1) (4 mod 2 => 0)
+        'Mettre la saisie dans une boucle qui se termine quand on saisie 0
 
     End Sub
 
