@@ -11,10 +11,11 @@
         Dim s2 As String = "Basic"
         Dim s3 As String = s1 + " " + s2
         Console.WriteLine(s3)
-        Console.Write("Saisir une data: ")
-        Dim input As Integer = Console.ReadLine()
-
-        Console.WriteLine(input + 1)
+        Dim anneeNow As Integer = DateTime.Now.Year
+        Console.Write("Saisir votre année de naissance : ")
+        Dim anneeNaissance As Integer = Console.ReadLine()
+        Dim age As Integer = anneeNow - anneeNaissance
+        Console.WriteLine("Vous avez " & age & " ans")
         Console.ReadKey()
 
         'TP1
