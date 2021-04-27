@@ -17,3 +17,4 @@ C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNE
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.pdb
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.genruntimeconfig.cache
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Resources.resources
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Form2.resources
