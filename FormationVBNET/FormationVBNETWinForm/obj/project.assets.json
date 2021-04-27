@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "FormationVBNET/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FormationVBNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FormationVBNET.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FormationVBNET/1.0.0": {
+      "type": "project",
+      "path": "../FormationVBNET/FormationVBNET.vbproj",
+      "msbuildProject": "../FormationVBNET/FormationVBNET.vbproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "FormationVBNET >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\conta\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj": {
+              "projectPath": "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj"
+            }
+          }
         }
       },
       "warningProperties": {

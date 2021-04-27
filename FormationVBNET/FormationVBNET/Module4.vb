@@ -1,4 +1,4 @@
-﻿Module Module4
+﻿Public Module Module4
 
     Sub Main()
         Dim tab1(6) As String
@@ -43,5 +43,9 @@
 
 
     End Sub
+
+    Public Function Add(i As Integer, j As Integer)
+        Return i + j
+    End Function
 
 End Module

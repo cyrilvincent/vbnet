@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj": {
+                "projectPath": "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj",
+        "projectName": "FormationVBNET",
+        "projectPath": "C:\\Users\\conta\\CVC\\Formation\\dotNet\\VB.NET\\gitvbnet\\FormationVBNET\\FormationVBNET\\FormationVBNET.vbproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
