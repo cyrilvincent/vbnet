@@ -27,6 +27,24 @@
         Dim moyenne As Single = somme / tab2.Length
         Console.WriteLine(moyenne)
 
+        Try
+            Dim nb1 As Integer = Console.ReadLine()
+            Dim nb2 As Integer = Console.ReadLine()
+            Dim res = nb1 / nb2
+            Console.WriteLine(res)
+        Catch ex As DivideByZeroException
+            Console.WriteLine("Division par zéro")
+        Catch ex As FormatException
+            Console.WriteLine("Veuillez saisir un entier")
+        Catch ex As Exception
+            Console.WriteLine(ex.Message)
+        End Try
+        ' Faire une forme avec 2 inputs nb1 et nb2
+        ' Faire la division nb1/nb2 + afficher le résultat
+        ' Gérer les erreurs
+
+
+
         Console.ReadKey()
 
         ' TP
