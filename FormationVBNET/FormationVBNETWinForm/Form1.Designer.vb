@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,21 +20,21 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
-        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
-        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node10")
-        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node11")
-        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node1", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode3, TreeNode4})
-        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node2")
-        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node3")
-        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node4")
-        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node5")
-        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node6")
-        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
-        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node0", New System.Windows.Forms.TreeNode() {TreeNode5, TreeNode6, TreeNode7, TreeNode8, TreeNode9, TreeNode10, TreeNode11})
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node10")
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node11")
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node1", New System.Windows.Forms.TreeNode() {TreeNode13, TreeNode14, TreeNode15, TreeNode16})
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node2")
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node3")
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node4")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node5")
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node6")
+        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
+        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node0", New System.Windows.Forms.TreeNode() {TreeNode17, TreeNode18, TreeNode19, TreeNode20, TreeNode21, TreeNode22, TreeNode23})
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -70,7 +70,8 @@ Partial Class Form1
         Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.CloseBtn = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
@@ -322,31 +323,31 @@ Partial Class Form1
         Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TreeView1.Location = New System.Drawing.Point(0, 0)
         Me.TreeView1.Name = "TreeView1"
-        TreeNode1.Name = "Node8"
-        TreeNode1.Text = "Node8"
-        TreeNode2.Name = "Node9"
-        TreeNode2.Text = "Node9"
-        TreeNode3.Name = "Node10"
-        TreeNode3.Text = "Node10"
-        TreeNode4.Name = "Node11"
-        TreeNode4.Text = "Node11"
-        TreeNode5.Name = "Node1"
-        TreeNode5.Text = "Node1"
-        TreeNode6.Name = "Node2"
-        TreeNode6.Text = "Node2"
-        TreeNode7.Name = "Node3"
-        TreeNode7.Text = "Node3"
-        TreeNode8.Name = "Node4"
-        TreeNode8.Text = "Node4"
-        TreeNode9.Name = "Node5"
-        TreeNode9.Text = "Node5"
-        TreeNode10.Name = "Node6"
-        TreeNode10.Text = "Node6"
-        TreeNode11.Name = "Node7"
-        TreeNode11.Text = "Node7"
-        TreeNode12.Name = "Node0"
-        TreeNode12.Text = "Node0"
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode12})
+        TreeNode13.Name = "Node8"
+        TreeNode13.Text = "Node8"
+        TreeNode14.Name = "Node9"
+        TreeNode14.Text = "Node9"
+        TreeNode15.Name = "Node10"
+        TreeNode15.Text = "Node10"
+        TreeNode16.Name = "Node11"
+        TreeNode16.Text = "Node11"
+        TreeNode17.Name = "Node1"
+        TreeNode17.Text = "Node1"
+        TreeNode18.Name = "Node2"
+        TreeNode18.Text = "Node2"
+        TreeNode19.Name = "Node3"
+        TreeNode19.Text = "Node3"
+        TreeNode20.Name = "Node4"
+        TreeNode20.Text = "Node4"
+        TreeNode21.Name = "Node5"
+        TreeNode21.Text = "Node5"
+        TreeNode22.Name = "Node6"
+        TreeNode22.Text = "Node6"
+        TreeNode23.Name = "Node7"
+        TreeNode23.Text = "Node7"
+        TreeNode24.Name = "Node0"
+        TreeNode24.Text = "Node0"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode24})
         Me.TreeView1.Size = New System.Drawing.Size(214, 422)
         Me.TreeView1.TabIndex = 0
         '
@@ -363,7 +364,8 @@ Partial Class Form1
         '
         'SplitContainer2.Panel2
         '
-        Me.SplitContainer2.Panel2.Controls.Add(Me.RichTextBox1)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.CloseBtn)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.TextBox1)
         Me.SplitContainer2.Size = New System.Drawing.Size(426, 422)
         Me.SplitContainer2.SplitterDistance = 142
         Me.SplitContainer2.TabIndex = 0
@@ -379,14 +381,21 @@ Partial Class Form1
         Me.ListBox1.Size = New System.Drawing.Size(426, 142)
         Me.ListBox1.TabIndex = 0
         '
-        'RichTextBox1
+        'TextBox1
         '
-        Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RichTextBox1.Location = New System.Drawing.Point(0, 0)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(426, 276)
-        Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = ""
+        Me.TextBox1.Location = New System.Drawing.Point(133, 38)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(125, 27)
+        Me.TextBox1.TabIndex = 0
+        '
+        'CloseBtn
+        '
+        Me.CloseBtn.Location = New System.Drawing.Point(133, 101)
+        Me.CloseBtn.Name = "CloseBtn"
+        Me.CloseBtn.Size = New System.Drawing.Size(94, 29)
+        Me.CloseBtn.TabIndex = 1
+        Me.CloseBtn.Text = "Close"
+        Me.CloseBtn.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -408,6 +417,7 @@ Partial Class Form1
         Me.SplitContainer1.ResumeLayout(False)
         Me.SplitContainer2.Panel1.ResumeLayout(False)
         Me.SplitContainer2.Panel2.ResumeLayout(False)
+        Me.SplitContainer2.Panel2.PerformLayout()
         CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer2.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -449,5 +459,6 @@ Partial Class Form1
     Friend WithEvents TreeView1 As TreeView
     Friend WithEvents SplitContainer2 As SplitContainer
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents CloseBtn As Button
 End Class

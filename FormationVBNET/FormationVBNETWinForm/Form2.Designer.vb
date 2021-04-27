@@ -33,6 +33,7 @@ Partial Class Form2
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -115,11 +116,21 @@ Partial Class Form2
         Me.Button6.Text = "Color"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(41, 59)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(94, 29)
+        Me.Button7.TabIndex = 9
+        Me.Button7.Text = "Form1"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button5)
@@ -147,4 +158,5 @@ Partial Class Form2
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents ColorDialog1 As ColorDialog
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class

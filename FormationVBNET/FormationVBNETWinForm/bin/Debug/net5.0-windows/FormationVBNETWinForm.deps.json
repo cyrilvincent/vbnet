@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "FormationVBNETWinForm/1.0.0": {
+        "dependencies": {
+          "FormationVBNET": "1.0.0"
+        },
         "runtime": {
           "FormationVBNETWinForm.dll": {}
+        }
+      },
+      "FormationVBNET/1.0.0": {
+        "runtime": {
+          "FormationVBNET.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FormationVBNETWinForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FormationVBNET/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

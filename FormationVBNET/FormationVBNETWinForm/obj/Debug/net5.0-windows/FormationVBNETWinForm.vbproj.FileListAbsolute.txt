@@ -18,3 +18,9 @@ C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNE
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.genruntimeconfig.cache
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Resources.resources
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Form2.resources
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\bin\Debug\net5.0-windows\FormationVBNET.dll
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\bin\Debug\net5.0-windows\FormationVBNET.pdb
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\bin\Debug\net5.0-windows\FormationVBNET.xml
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\bin\Debug\net5.0-windows\FormationVBNET.dll.config
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Form3.resources
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.vbproj.CopyComplete

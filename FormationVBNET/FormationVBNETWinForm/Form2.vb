@@ -43,6 +43,20 @@
         End If
     End Sub
 
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim form As New Form1
+        form.monInput = "valeur depuis form2"
+        form.ShowDialog()
+        Dim res As String = form.monOutput
+        ' D'une fenetre tu affiche ta fenetre des nombre premiers
+        ' PAr défaut il affiche un nombre que tu as envoé depuis la fenetre hôte
+        ' Quand tu close la fenetre des nombre premier tu récupère le résultat True False
+    End Sub
+
     ' Grisser le bouton calculer par défaut (enable)
     ' Dégriser le bouton si les 2 Textbox sont remplis
     ' Calculer a puissance b (Math.Pow) et l'afficher
