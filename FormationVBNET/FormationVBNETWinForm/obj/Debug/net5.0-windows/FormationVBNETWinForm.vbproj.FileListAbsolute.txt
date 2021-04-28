@@ -24,3 +24,4 @@ C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNE
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\bin\Debug\net5.0-windows\FormationVBNET.dll.config
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.Form3.resources
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.vbproj.CopyComplete
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm\obj\Debug\net5.0-windows\FormationVBNETWinForm.MainForm.resources

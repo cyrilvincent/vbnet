@@ -43,6 +43,8 @@
         ' Faire la division nb1/nb2 + afficher le résultat
         ' Gérer les erreurs
 
+        'FAIRE LES MENUS
+
 
 
         Console.ReadKey()
@@ -58,6 +60,8 @@
         ' Créer la sub qui pour chaque nombre affiche s'il est premier ou non
         ' Créer un tableau de 1000 éléments aléatoires
         ' Rejouer les fonctions et sub
+
+        'FAIRE LES MENUS
 
 
     End Sub
