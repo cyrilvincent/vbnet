@@ -74,6 +74,7 @@ Partial Class Form1
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -91,7 +92,7 @@ Partial Class Form1
         '
         'FichierToolStripMenuItem
         '
-        Me.FichierToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouveauToolStripMenuItem, Me.OuvrirToolStripMenuItem, Me.toolStripSeparator, Me.EnregistrerToolStripMenuItem, Me.EnregistrersousToolStripMenuItem, Me.toolStripSeparator1, Me.ImprimerToolStripMenuItem, Me.AperçuavantimpressionToolStripMenuItem, Me.toolStripSeparator2, Me.QuitterToolStripMenuItem})
+        Me.FichierToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouveauToolStripMenuItem, Me.ToolStripMenuItem1, Me.OuvrirToolStripMenuItem, Me.toolStripSeparator, Me.EnregistrerToolStripMenuItem, Me.EnregistrersousToolStripMenuItem, Me.toolStripSeparator1, Me.ImprimerToolStripMenuItem, Me.AperçuavantimpressionToolStripMenuItem, Me.toolStripSeparator2, Me.QuitterToolStripMenuItem})
         Me.FichierToolStripMenuItem.Name = "FichierToolStripMenuItem"
         Me.FichierToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
         Me.FichierToolStripMenuItem.Text = "&Fichier"
@@ -112,7 +113,7 @@ Partial Class Form1
         Me.OuvrirToolStripMenuItem.Name = "OuvrirToolStripMenuItem"
         Me.OuvrirToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
         Me.OuvrirToolStripMenuItem.Size = New System.Drawing.Size(255, 26)
-        Me.OuvrirToolStripMenuItem.Text = "&Ouvrir"
+        Me.OuvrirToolStripMenuItem.Text = "&Ouvrir Excel"
         '
         'toolStripSeparator
         '
@@ -441,6 +442,15 @@ Partial Class Form1
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Label1"
         '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Image = CType(resources.GetObject("ToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.ToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(255, 26)
+        Me.ToolStripMenuItem1.Text = "&Ouvrir"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -515,4 +525,5 @@ Partial Class Form1
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Label1 As Label
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
 End Class

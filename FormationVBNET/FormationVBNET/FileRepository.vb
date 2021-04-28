@@ -47,7 +47,17 @@ Public Module FileRepository
         Dim writer As New StreamWriter(path)
         writer.WriteLine(content)
         writer.Close()
+
     End Sub
+
+    Function Excel(path)
+        Dim xl As New Microsoft.Office.Interop.Excel.Application()
+        Dim workbook = xl.Workbooks.Open(path)
+        Dim sheet = workbook.Sheets(1)
+        Dim range = sheet.UsedRange
+        Return range
+    End Function
+
 
     ' TP
     ' S'inspirer de load pour faire la fonction displayFile qui affiche le contenu de data2.txt en séparant les chiffres par des |
