@@ -6,6 +6,6 @@ C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNE
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\obj\Debug\FormationVBNET.vbproj.CoreCompileInputs.cache
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\obj\Debug\FormationVBNET.xml
 C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\obj\Debug\FormationVBNET.pdb
-C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\bin\Debug\FormationVBNET.dll.config
-C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\bin\Debug\FormationVBNET.dll
-C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\obj\Debug\FormationVBNET.dll
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\bin\Debug\FormationVBNET.exe.config
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\bin\Debug\FormationVBNET.exe
+C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNET\obj\Debug\FormationVBNET.exe

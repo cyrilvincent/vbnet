@@ -5,15 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8C9B32C7-3634-447E-815F-2DD712C593EF}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <StartupObject>
-    </StartupObject>
+    <OutputType>Exe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
     <RootNamespace>FormationVBNET</RootNamespace>
     <AssemblyName>FormationVBNET</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>Windows</MyType>
+    <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -73,9 +72,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileRepository.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="Module2.vb" />
-    <Compile Include="Module3.vb" />
     <Compile Include="Module4.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
