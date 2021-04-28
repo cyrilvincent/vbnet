@@ -126,6 +126,13 @@
     <Content Include="data.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="res.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormationVBNET\FormationVBNET.vbproj">
+      <Project>{8c9b32c7-3634-447e-815f-2dd712c593ef}</Project>
+      <Name>FormationVBNET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
