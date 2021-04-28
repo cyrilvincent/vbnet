@@ -71,6 +71,7 @@ Partial Class Form1
         Me.GuessNumberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormXXXToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -425,6 +426,10 @@ Partial Class Form1
         Me.ToolStripButton1.Size = New System.Drawing.Size(29, 24)
         Me.ToolStripButton1.Text = "ToolStripButton1"
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -495,4 +500,5 @@ Partial Class Form1
     Friend WithEvents StatusStrip1 As StatusStrip
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class

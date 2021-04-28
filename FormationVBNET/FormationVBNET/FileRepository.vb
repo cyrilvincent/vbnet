@@ -1,22 +1,25 @@
 ﻿Imports System.IO
 
-Module FileRepository
+Public Module FileRepository
 
     Sub Main()
         Load("C:\Users\conta\CVC\Formation\dotNet\VB.NET\gitvbnet\FormationVBNET\FormationVBNETWinForm2\data.txt")
         Console.ReadKey()
     End Sub
 
-    Function Load(path As String)
+    Public Function Load(path As String)
         Dim reader As New StreamReader(path)
         Dim row As String = ""
         While Not row Is Nothing
             row = reader.ReadLine()
-            Console.WriteLine(row)
-            Dim tab() As String = row.Split(" ")
-            For Each word In tab
-                Console.WriteLine("Mot: " & word)
-            Next
+            If Not row Is Nothing Then
+                Console.WriteLine(row)
+                Dim tab() As String = row.Split(" ")
+                For Each word In tab
+                    Console.WriteLine("Mot: " & word)
+                Next
+            End If
+
         End While
         Return 0
     End Function
